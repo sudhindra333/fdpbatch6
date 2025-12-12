@@ -77,7 +77,7 @@ def delete_student(student_id):
 init_database()
 
 # Streamlit UI
-st.title("📚 Student Management System")
+st.title("📚 My Student Management System")
 st.write("Manage student records with ease using SQLite database")
 
 # Sidebar navigation
@@ -167,4 +167,5 @@ elif operation == "Delete":
 
 # Footer
 st.divider()
+
 st.caption("💡 Student Management App - Built with Streamlit & SQLite3")
